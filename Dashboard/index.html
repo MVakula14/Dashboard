@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Dashboard</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__container">
+      <a href="#" class="logo">
+        <img class="logo__icon" src="img/logo.svg" alt="logo">
+        <h1 class="logo__titile">
+          <p>Dashboard</p>
+        </h1>
+        <div class="logo__version">
+          <p>v.01</p>
+        </div>
+      </a>
+      <nav class="menu">
+        <ul>
+          <li class="menu__item">
+            <img class="menu__icon" src="img/01.svg" alt="icon">
+            <p>Dashboard</p>
+          </li>
+          <li class="menu__item">
+            <img class="menu__icon" src="img/02.svg" alt="icon">
+            <p>Product</p>
+            <img class="icon-next" src="img/next.svg" alt="next">
+          </li>
+          <li class="menu__item menu__active">
+            <img class="menu__icon"  src="img/03.svg" alt="icon">
+            <p>Customers</p>
+            <img class="icon-next" src="img/next.svg" alt="next">
+          </li>
+          <li class="menu__item">
+            <img class="menu__icon" src="img/04.svg" alt="icon">
+            <p>Income</p>
+            <img class="icon-next" src="img/next.svg" alt="next">
+          </li>
+          <li class="menu__item">
+            <img class="menu__icon" src="img/05.svg" alt="icon">
+            <p>Promote</p>
+            <img class="icon-next" src="img/next.svg" alt="next">
+          </li>
+          <li class="menu__item">
+            <img class="menu__icon" src="img/06.svg" alt="icon">
+            <p>Help</p>
+            <img class="icon-next" src="img/next.svg" alt="next">
+          </li>
+        </ul>
+      </nav>
+      <div class="profile__avatar">
+        <a href="#"><img class="avatar__image" src="img/Evano.png" alt="avatar"><a >
+        <div class="avatar__description">
+          <div class="avatar__name">
+            <p>
+              Evano
+            </p>
+          </div >
+          <div class="avatar__position">
+            <p>
+              Project Manager
+            </p>
+          </div>
+        </div>
+      </div>
+    </div >
+  </header>
+  <main>
+    <section class="customers">
+      <div class="custumers__container">
+        <div class="custumer__welcom">
+          <p>Hello Evano 👋🏼,</p>
+        </div>
+        <div class="customer__content">
+          <div class="customer__header">
+            <div class="customer__info">
+              <h2 class="customer__all">
+                <p>All Customers</p>
+              </h2>
+              <h3 class="customer__active">
+                <p>Active Members</p>
+              </h3>
+            </div>
+              <form class="customer__search">
+                <input class="search__input" placeholder="Search" type="search">
+              </form>
+          </div>
+          <div class="customer__main">
+            <div class="main__header">
+              <ul class="main-header__list">
+                <li class="main-header__item main-header__item-1">Customer Name</li>
+                <li class="main-header__item main-header__item-2">Company</li>
+                <li class="main-header__item main-header__item-3">Phone Number</li>
+                <li class="main-header__item main-header__item-4">Email</li>
+                <li class="main-header__item main-header__item-5">Country</li>
+                <li class="main-header__item main-header__item-6">Status</li>
+              </ul>
+            </div>
+            <div class="main__content">
+              <ul class="main__list-customer">
+                <li class="customer__name">Jane Cooper</li>
+                <li class="customer__company">Microsoft</li>
+                <li class="customer__phone-number">(225) 555-0118</li>
+                <li class="customer__email">jane@microsoft.com</li>
+                <li class="customer__country">United States</li>
+                <li class="customer__status customer-active">Active</li>
+              </ul>
+              <ul class="main__list-customer">
+                <li class="customer__name">Floyd Miles</li>
+                <li class="customer__company">Yahoo</li>
+                <li class="customer__phone-number">(205) 555-0100</li>
+                <li class="customer__email">floyd@yahoo.com</li>
+                <li class="customer__country">Kiribati</li>
+                <li class="customer__status customer-inactive">Inactive</li>
+              </ul>
+              <ul class="main__list-customer">
+                <li class="customer__name">Ronald Richards</li>
+                <li class="customer__company">Adobe</li>
+                <li class="customer__phone-number">(302) 555-0107</li>
+                <li class="customer__email">ronald@adobe.com</li>
+                <li class="customer__country">Israel</li>
+                <li class="customer__status customer-inactive">Inactive</li>
+              </ul>
+              <ul class="main__list-customer">
+                <li class="customer__name">Marvin McKinney</li>
+                <li class="customer__company">Tesla</li>
+                <li class="customer__phone-number">(252) 555-0126</li>
+                <li class="customer__email">marvin@tesla.com</li>
+                <li class="customer__country">Iran</li>
+                <li class="customer__status customer-active">Active</li>
+              </ul>
+              <ul class="main__list-customer">
+                <li class="customer__name">Jerome Bell</li>
+                <li class="customer__company">Google</li>
+                <li class="customer__phone-number">(629) 555-0129</li>
+                <li class="customer__email">jerome@google.com</li>
+                <li class="customer__country">Réunion</li>
+                <li class="customer__status customer-active">Active</li>
+              </ul>
+              <ul class="main__list-customer">
+                <li class="customer__name">Kathryn Murphy</li>
+                <li class="customer__company">Microsoft</li>
+                <li class="customer__phone-number">(406) 555-0120</li>
+                <li class="customer__email">kathryn@microsoft.com</li>
+                <li class="customer__country">Curaçao</li>
+                <li class="customer__status customer-active">Active</li>
+              </ul>
+              <ul class="main__list-customer">
+                <li class="customer__name">Jacob Jones</li>
+                <li class="customer__company">Yahoo</li>
+                <li class="customer__phone-number">(208) 555-0112</li>
+                <li class="customer__email">jacob@yahoo.com</li>
+                <li class="customer__country">Brazil</li>
+                <li class="customer__status customer-active">Active</li>
+              </ul>
+              <ul class="main__list-customer">
+                <li class="customer__name">Kristin Watson</li>
+                <li class="customer__company">Facebook</li>
+                <li class="customer__phone-number">(704) 555-0127</li>
+                <li class="customer__email">kristin@facebook.com</li>
+                <li class="customer__country">Åland Islands</li>
+                <li class="customer__status customer-inactive">Inactive</li>
+              </ul>
+            </div>
+          </div>
+          <div class="customer__footer">
+            <div class="footer__showing-data">Showing data 1 to 8 of  256K entries</div>
+            <div class="footer__page-select">
+              <ul class="select__page">
+                <li class="page__number number-prev"><</li>
+                <li class="page__number number-active">1</li>
+                <li class="page__number">2</li>
+                <li class="page__number">3</li>
+                <li class="page__number">4</li>
+                <li class="more__page">...</li>
+                <li class="page__number numbers-two-digit">40</li>
+                <li class="page__number number-next">></li>
+              </ul>
+            </div>
+          </div>
+        </div >
+      </div>
+    </section>
+  </main>
+</body>
+</html>
